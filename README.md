@@ -12,3 +12,9 @@ Teaching myself various programming languages by building:
 - Ruby
 - C++
 - Scheme
+
+
+#### Rules
+- No libraries
+- Simple as possible
+- No hacks
