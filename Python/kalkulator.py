@@ -1,10 +1,14 @@
+# Kalkulator - Polish-notation calculator
+
 class Kalkulator:
 	def __init__(self):
-		self.operands = ['+', '-', '/', '*', '^']
+		self.operators = ('+', '-', '/', '*', '^')
+		self.operations = ('add', 'sub', 'div', 'mul', 'pow')
+		self.opers = tuple(zip(self.operators, self.operations))
 		self.wejscie = []
-		self.get_input()
+		self.get_wejscie()
 	
-	def get_input(self):
+	def get_wejscie(self):
 		wejscie = raw_input()
 		while not wejscie:
 			wejscie = raw_input()
@@ -13,3 +17,4 @@ class Kalkulator:
 		
 kalk = Kalkulator()
 print kalk.wejscie
+print kalk.opers
