@@ -1,4 +1,3 @@
-
 class Kalkulator:
 	def __init__(self):
 		self.operands = ['+', '-', '/', '*', '^']
