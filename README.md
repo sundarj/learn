@@ -6,12 +6,14 @@ Teaching myself various programming languages by building:
 - A simple web server
 
 
-### Current languages
+### Languages
 
 - Brushing up on Python
 - Ruby
 - C++
 - Scheme
+- Go
+- Dart
 
 
 #### Rules
